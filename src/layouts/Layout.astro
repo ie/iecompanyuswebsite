@@ -1,6 +1,6 @@
 ---
-import Footer from '../components/Footer.astro'
 import Header from '../components/Header.astro'
+import Footer from '../components/Footer.astro'
 ---
 
 <html lang="en">
@@ -11,13 +11,9 @@ import Header from '../components/Header.astro'
         <meta name="generator" content={Astro.generator} />
         <title>Astro</title>
     </head>
-    <body class="bg-ieBrandLight">
-        <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-12 flex flex-col items-center">
-          <Header />
-          <main>
-            <slot />
-          </main>
-          <Footer />
-        </div>
-      </body>
+    <body class="bg-white">
+        <Header />
+        <slot />
+        <Footer />
+    </body>
 </html>

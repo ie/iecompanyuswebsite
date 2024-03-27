@@ -4,11 +4,15 @@ export default {
 	theme: {
 		extend: {
 			colors: {
-				ieBrandDark: '#006A76',
-				ieBrandLight: '#CCF2F7',
-				ieBrandLight2: '#00C1D5',
-				ieBrandDark1: '#131313',
-				ieBrandLight1: '#F8F8F8',
+				ieBrand1: '#CCf2F7',
+				ieBrand2: '#99E5EE',
+				ieBrand3: '#00C1D5',
+				ieBrand4: '#00A6B9',
+				ieBrand5: '#006A76',
+				gray: {
+					50: "#FAFAFC",
+					100: "#E9E9EC",
+				},
 			}
 		},
 	},
