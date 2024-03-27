@@ -1,0 +1,27 @@
+---
+import Container from "./Container.astro"
+
+---
+
+<div class="relative" id="home">
+    <div aria-hidden="true" class="absolute inset-0 grid grid-cols-2 -space-x-52 opacity-40">
+        <div class="blur-[106px] h-56 bg-gradient-to-br from-primary to-purple-400"></div>
+        <div class="blur-[106px] h-32 bg-gradient-to-r from-cyan-400 to-sky-300"></div>
+    </div>
+    <Container>
+        <div class="relative pt-36 ml-auto mb-20">
+            <div class="lg:w-1/2 text-center mx-auto">
+              <h1 class="font-crimson font-bold text-3xl md:text-4xl xl:text-5xl">Let's chat</h1>
+              <p class="mt-8 text-gray-700">(i.e.,) is a consultancy that works across strategy and execution to deliver the right digital products to transform the future of your company.</p>
+              <div class="lg:w-2/3 text-center mx-auto mt-20">
+                <h2 class="font-crimson font-bold text-xl md:text-xl xl:text-xl mb-3 ">OUR OFFICE</h2>
+                <p class="text-gray-700">IE COMPANY,<br> North America 1370 N St Andrews Pl,<br> Los Angeles, CA</p>
+              </div>
+              <div class="lg:w-2/3 text-center mx-auto mt-10">
+                <h2 class="font-crimson font-bold text-xl md:text-xl xl:text-xl mb-3">CONTACT</h2>
+                <a class="mt-5" href="mailto:usa@ie.com.au?subject=You've%20got%20mail!"><u>usa@ie.com.au</u></a>
+              </div>
+            </div>
+        </div>
+    </Container>
+</div>
