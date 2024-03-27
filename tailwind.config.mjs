@@ -14,6 +14,9 @@ export default {
           100: "#E9E9EC",
         },
       },
+      fontFamily: {
+        crimson: ['Crimson Text', 'serif'],
+      }
     },
   },
   plugins: [],
