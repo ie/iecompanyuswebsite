@@ -3,27 +3,31 @@ import Container from "./Container.astro"
 
 ---
 
-<div class="relative" id="home">
+<div class="relative flex-grow flex" id="home">
     <div aria-hidden="true" class="absolute inset-0 grid grid-cols-2 -space-x-52 opacity-40">
         <div class="blur-[106px] h-56 bg-gradient-to-br from-primary to-purple-400"></div>
         <div class="blur-[106px] h-32 bg-gradient-to-r from-cyan-400 to-sky-300"></div>
     </div>
     <Container>
-        <div class="relative pt-36 ml-auto">
-            <div class="lg:w-2/3 text-center mx-auto">
-                <h1 class="font-crimson font-bold text-5xl md:text-6xl xl:text-7xl">G'day America,</span></h1>
-                <h1 class="font-crimson font-bold text-5xl md:text-6xl xl:text-7xl"><span class="text-primary">(i.e.,) is coming to the US!</span></h1>
-                <p class="mt-8 text-gray-700">We’re a technology consultancy that loves driving growth and delighting customers.
+        <div class="relative pt-36 ml-auto h-full flex flex-col">
+            <div class="lg:w-2/3 text-center mx-auto flex flex-col flex-grow justify-around">
+                <div>
+                  <h1 class="font-crimson font-bold text-5xl md:text-6xl xl:text-7xl">G'day America,</span></h1>
+                  <h1 class="font-crimson font-bold text-5xl md:text-6xl xl:text-7xl"><span class="text-primary">(i.e.,) is here!</span></h1>
+                </div>
+                <div>
+                  <p class="mt-8 text-gray-700">We’re a technology consultancy that loves driving growth and delighting customers.
                     Curious to learn more? Get an understanding of what we do.</p>
-                <div class="mt-16 flex flex-wrap justify-center gap-y-4 gap-x-6">
-                    <a
+                    <div class="mt-8 flex flex-wrap justify-center gap-y-4 gap-x-6">
+                      <a
                       href="https://www.ie.com.au/"
                       class="relative flex h-11 w-full items-center justify-center px-6 before:absolute before:inset-0 before:rounded-full before:bg-ieBrand3 before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max"
-                    >
+                      >
                       <span class="relative text-base font-semibold text-white"
-                        >Learn more</span
+                      >Learn more</span
                       >
                     </a>
+                  </div>
                 </div>
             </div>
             <div class="mt-12 border-y border-gray-100 grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6">
